@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الاختبارات التفاعلية - مرجع Mega Goal 1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+             <a href="index.html" class="text-2xl font-bold text-indigo-700">العودة للرئيسية</a>
+            <div>
+                 <a href="guide.html" class="text-gray-700 hover:text-indigo-600 font-semibold nav-link">الشرح المفصل</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-6 py-8">
+        <div id="quiz-container" class="max-w-3xl mx-auto bg-white p-8 rounded-2xl shadow-lg">
+            
+            <div id="quiz-welcome" class="text-center">
+                 <h2 class="text-3xl font-bold text-gray-800">مرحباً بك في الاختبارات</h2>
+                 <p class="mt-4 text-lg text-gray-600">اختر اختباراً من صفحة الشرح المفصل، أو ابدأ باختبار عشوائي من هنا.</p>
+                 <button id="random-quiz-btn" class="mt-6 cta-button bg-indigo-600 text-white">ابدأ اختبار عشوائي</button>
+            </div>
+
+            <div id="quiz-main" class="hidden">
+                <div id="progress-bar-container" class="w-full bg-gray-200 rounded-full h-4 mb-4">
+                    <div id="progress-bar" class="bg-indigo-600 h-4 rounded-full" style="width: 0%"></div>
+                </div>
+                <p id="progress-text" class="text-center text-gray-600 font-semibold mb-6">السؤال 1 من 5</p>
+
+                <h3 id="question-text" class="text-2xl font-bold text-gray-800 mb-6 text-center"></h3>
+                <div id="choices-container" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    </div>
+                <div class="mt-6 text-center">
+                    <button id="next-question-btn" class="cta-button bg-gray-700 text-white hidden">السؤال التالي</button>
+                </div>
+            </div>
+
+            <div id="score-container" class="hidden text-center">
+                <h2 id="score-title" class="text-4xl font-extrabold text-indigo-700"></h2>
+                <p id="score-message" class="mt-4 text-xl text-gray-600"></p>
+                
+                <div id="mistakes-review" class="mt-8 text-right hidden">
+                    <h4 class="font-bold text-lg border-b pb-2 mb-4">راجع أخطاءك:</h4>
+                    <div id="mistakes-list" class="space-y-4"></div>
+                </div>
+
+                <div class="mt-8">
+                    <a href="quiz.html" class="cta-button bg-indigo-600 text-white">إجراء اختبار آخر</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+     <footer class="bg-gray-800 text-white mt-12">
+        <div class="container mx-auto px-6 py-4 text-center">
+            <p>© 2024 - تم إعداد هذا الموقع لمساعدة طلاب Mega Goal 1</p>
+        </div>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

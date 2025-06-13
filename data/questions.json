@@ -1,0 +1,48 @@
+{
+  "unit9": {
+    "grammar": [
+      {
+        "question": "This sleeve is torn. I'll have it (.........).",
+        "choices": ["sew", "sewn", "sewing", "to sew"],
+        "answer": "sewn",
+        "explanation": "بعد الفعل have في الصيغة السببية، نستخدم التصريف الثالث للفعل (Past Participle)."
+      },
+      {
+        "question": "The walls are filthy. They need (.........) repainted.",
+        "choices": ["to", "being", "to be", "be"],
+        "answer": "to be",
+        "explanation": "بعد الفعل need للتعبير عن الحاجة في صيغة المبني للمجهول، نستخدم to be + التصريف الثالث."
+      }
+    ]
+  },
+  "unit10": {
+    "grammar": [
+      {
+        "question": "When we arrived at the airport, our flight (.........) already left.",
+        "choices": ["had", "has", "was", "is"],
+        "answer": "had",
+        "explanation": "نستخدم الماضي التام (had + pp) لوصف حدث (مغادرة الطائرة) وقع قبل حدث آخر في الماضي (وصولنا)."
+      }
+    ]
+  },
+  "unit11": {
+    "grammar": [
+       {
+        "question": "If I had studied harder, I (.........) have passed the exam.",
+        "choices": ["will", "can", "would", "may"],
+        "answer": "would",
+        "explanation": "في الجملة الشرطية من النوع الثالث (Third Conditional)، نستخدم would have + pp في جملة النتيجة."
+      }
+    ]
+  },
+  "unit12": {
+    "grammar": [
+        {
+        "question": "Direct: 'I am leaving now.' -> Reported: She said that she (.........) leaving then.",
+        "choices": ["is", "am", "was", "will be"],
+        "answer": "was",
+        "explanation": "في الكلام المنقول، يتغير زمن المضارع المستمر (am leaving) إلى الماضي المستمر (was leaving)."
+      }
+    ]
+  }
+}
