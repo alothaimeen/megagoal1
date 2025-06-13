@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مراجعة نهائية - Mega Goal 1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Tajawal', sans-serif;
+        }
+        .quiz-option:hover {
+            background-color: #f0f4ff; /* Light blue on hover */
+        }
+        .correct-answer {
+            background-color: #d1fae5; /* Light green for correct */
+            border-color: #10b981; /* Green border */
+        }
+        .wrong-answer {
+            background-color: #fee2e2; /* Light red for wrong */
+            border-color: #ef4444; /* Red border */
+        }
+        .selected-answer {
+             background-color: #e0e7ff; /* Indigo light */
+             border-color: #6366f1; /* Indigo */
+        }
+        /* Smooth scroll for anchor links */
+        html {
+            scroll-behavior: smooth;
+        }
+        .content-section {
+            display: none;
+        }
+        .content-section.active {
+            display: block;
+        }
+        .nav-button.active {
+            background-color: #4f46e5;
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4">
+            <h1 class="text-3xl font-extrabold text-indigo-700 text-center">مراجعة Mega Goal 1 النهائية</h1>
+            <p class="text-center text-gray-500 mt-1">أداة المراجعة التفاعلية للاختبار النهائي</p>
+        </div>
+        <nav class="bg-gray-200">
+            <div class="container mx-auto flex justify-center items-center space-x-4 space-x-reverse py-2">
+                <button onclick="showSection('grammar')" class="nav-button active text-lg font-bold py-2 px-6 rounded-t-lg transition-colors duration-300 ease-in-out hover:bg-indigo-500 hover:text-white">القواعد</button>
+                <button onclick="showSection('vocabulary')" class="nav-button text-lg font-bold py-2 px-6 rounded-t-lg transition-colors duration-300 ease-in-out hover:bg-indigo-500 hover:text-white">المفردات</button>
+                <button onclick="showSection('reading')" class="nav-button text-lg font-bold py-2 px-6 rounded-t-lg transition-colors duration-300 ease-in-out hover:bg-indigo-500 hover:text-white">القراءة</button>
+                <button onclick="showSection('writing')" class="nav-button text-lg font-bold py-2 px-6 rounded-t-lg transition-colors duration-300 ease-in-out hover:bg-indigo-500 hover:text-white">الكتابة</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-6 py-8">
+
+        <section id="grammar" class="content-section active space-y-8">
+            <h2 class="text-3xl font-bold border-r-4 border-indigo-600 pr-4 mb-6">قسم القواعد (Grammar)</h2>
+            <div class="bg-white p-6 rounded-xl shadow-md">
+                <h3 class="text-2xl font-bold text-indigo-800 mb-3">1. صياغة الشكاوى (ص. 140)</h3>
+                <p class="mb-4 text-lg">تُستخدم صيغة <code class="bg-gray-200 p-1 rounded">need to be + (past participle)</code> للتعبير عن شيء يحتاج إلى الإصلاح، وصيغة <code class="bg-gray-200 p-1 rounded">have/get + object + (past participle)</code> للتعبير عن أن شخصًا آخر سيقوم بالخدمة لك.</p>
+                <div class="quiz" data-quiz-id="g1">
+                    <p class="text-lg font-semibold mb-2">1. The jacket is stained. It (.........) to be dry-cleaned.</p>
+                    <div class="space-y-2">
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="g1q1" value="0" class="hidden"> A. needs</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="g1q1" value="1" class="hidden"> B. have</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="g1q1" value="2" class="hidden"> C. get</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="g1q1" value="3" class="hidden"> D. is</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="g1q1" value="4" class="hidden"> E. are</label>
+                    </div>
+                    <button onclick="checkAnswer(this, 0)" class="mt-4 bg-indigo-600 text-white font-bold py-2 px-4 rounded hover:bg-indigo-700 transition-colors">تحقق من الإجابة</button>
+                    <p class="feedback mt-2 font-bold"></p>
+                </div>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-md">
+                <h3 class="text-2xl font-bold text-indigo-800 mb-3">2. الزمن الماضي التام (ص. 154)</h3>
+                <p class="mb-4 text-lg">يُستخدم الزمن الماضي التام <code class="bg-gray-200 p-1 rounded">had + past participle</code> للتعبير عن حدث وقع قبل حدث آخر في الماضي.</p>
+                <div class="quiz" data-quiz-id="g2">
+                    <p class="text-lg font-semibold mb-2">1. When we arrived at the airport, our flight (.........) already left.</p>
+                    <div class="space-y-2">
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="g2q1" value="0" class="hidden"> A. has</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="g2q1" value="1" class="hidden"> B. have</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="g2q1" value="2" class="hidden"> C. had</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="g2q1" value="3" class="hidden"> D. is</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="g2q1" value="4" class="hidden"> E. was</label>
+                    </div>
+                    <button onclick="checkAnswer(this, 2)" class="mt-4 bg-indigo-600 text-white font-bold py-2 px-4 rounded hover:bg-indigo-700 transition-colors">تحقق من الإجابة</button>
+                    <p class="feedback mt-2 font-bold"></p>
+                </div>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-md">
+                <h3 class="text-2xl font-bold text-indigo-800 mb-3">3. الجمل الشرطية (ص. 168)</h3>
+                <p class="mb-4 text-lg">تُستخدم الجمل الشرطية الافتراضية في الماضي للتعبير عن مواقف لم تحدث ونتائجها المتخيلة، وتأتي بصيغة <code class="bg-gray-200 p-1 rounded">If + past perfect, ... would have + past participle</code>.</p>
+                <div class="quiz" data-quiz-id="g3">
+                    <p class="text-lg font-semibold mb-2">1. If I had studied harder, I (.........) have passed the exam.</p>
+                    <div class="space-y-2">
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="g3q1" value="0" class="hidden"> A. will</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="g3q1" value="1" class="hidden"> B. would</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="g3q1" value="2" class="hidden"> C. can</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="g3q1" value="3" class="hidden"> D. should</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="g3q1" value="4" class="hidden"> E. may</label>
+                    </div>
+                    <button onclick="checkAnswer(this, 1)" class="mt-4 bg-indigo-600 text-white font-bold py-2 px-4 rounded hover:bg-indigo-700 transition-colors">تحقق من الإجابة</button>
+                    <p class="feedback mt-2 font-bold"></p>
+                </div>
+            </div>
+             <div class="bg-white p-6 rounded-xl shadow-md">
+                <h3 class="text-2xl font-bold text-indigo-800 mb-3">4. الكلام المنقول (ص. 182)</h3>
+                <p class="mb-4 text-lg">عند نقل الكلام المباشر إلى كلام منقول، يتغير زمن الفعل إلى درجة أقدم في الماضي. مثلاً، المضارع البسيط يصبح ماضيًا بسيطًا.</p>
+                <div class="quiz" data-quiz-id="g4">
+                    <p class="text-lg font-semibold mb-2">1. Direct: "I don't like mangoes." -> Reported: She said that she (.........) like mangoes.</p>
+                    <div class="space-y-2">
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="g4q1" value="0" class="hidden"> A. don't</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="g4q1" value="1" class="hidden"> B. doesn't</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="g4q1" value="2" class="hidden"> C. didn't</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="g4q1" value="3" class="hidden"> D. isn't</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="g4q1" value="4" class="hidden"> E. haven't</label>
+                    </div>
+                    <button onclick="checkAnswer(this, 2)" class="mt-4 bg-indigo-600 text-white font-bold py-2 px-4 rounded hover:bg-indigo-700 transition-colors">تحقق من الإجابة</button>
+                    <p class="feedback mt-2 font-bold"></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="vocabulary" class="content-section space-y-8">
+            <h2 class="text-3xl font-bold border-r-4 border-teal-600 pr-4 mb-6">قسم المفردات (Real Talk)</h2>
+            <div class="bg-white p-6 rounded-xl shadow-md">
+                 <div class="quiz" data-quiz-id="v1">
+                    <p class="text-lg font-semibold mb-2">1. It sounds like: (It seems (.........) be) (ص. 143)</p>
+                    <div class="space-y-2">
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="v1q1" value="0" class="hidden"> A. to</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="v1q1" value="1" class="hidden"> B. for</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="v1q1" value="2" class="hidden"> C. from</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="v1q1" value="3" class="hidden"> D. with</label>
+                    </div>
+                    <button onclick="checkAnswer(this, 0)" class="mt-4 bg-teal-600 text-white font-bold py-2 px-4 rounded hover:bg-teal-700 transition-colors">تحقق من الإجابة</button>
+                    <p class="feedback mt-2 font-bold"></p>
+                </div>
+            </div>
+             <div class="bg-white p-6 rounded-xl shadow-md">
+                 <div class="quiz" data-quiz-id="v2">
+                    <p class="text-lg font-semibold mb-2">2. Beats me!: (I have no (.........)!) (ص. 157)</p>
+                    <div class="space-y-2">
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="v2q1" value="0" class="hidden"> A. question</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="v2q1" value="1" class="hidden"> B. problem</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="v2q1" value="2" class="hidden"> C. choice</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="v2q1" value="3" class="hidden"> D. idea</label>
+                    </div>
+                    <button onclick="checkAnswer(this, 3)" class="mt-4 bg-teal-600 text-white font-bold py-2 px-4 rounded hover:bg-teal-700 transition-colors">تحقق من الإجابة</button>
+                    <p class="feedback mt-2 font-bold"></p>
+                </div>
+            </div>
+             <div class="bg-white p-6 rounded-xl shadow-md">
+                 <div class="quiz" data-quiz-id="v3">
+                    <p class="text-lg font-semibold mb-2">3. breathing down someone's neck: (constantly (.........)) (ص. 171)</p>
+                    <div class="space-y-2">
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="v3q1" value="0" class="hidden"> A. helping</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="v3q1" value="1" class="hidden"> B. checking</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="v3q1" value="2" class="hidden"> C. talking</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="v3q1" value="3" class="hidden"> D. asking</label>
+                    </div>
+                    <button onclick="checkAnswer(this, 1)" class="mt-4 bg-teal-600 text-white font-bold py-2 px-4 rounded hover:bg-teal-700 transition-colors">تحقق من الإجابة</button>
+                    <p class="feedback mt-2 font-bold"></p>
+                </div>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-md">
+                 <div class="quiz" data-quiz-id="v4">
+                    <p class="text-lg font-semibold mb-2">4. hoax: (a plan that is designed to (.........) someone else) (ص. 185)</p>
+                    <div class="space-y-2">
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="v4q1" value="0" class="hidden"> A. trick</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="v4q1" value="1" class="hidden"> B. help</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="v4q1" value="2" class="hidden"> C. meet</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="v4q1" value="3" class="hidden"> D. guide</label>
+                    </div>
+                    <button onclick="checkAnswer(this, 0)" class="mt-4 bg-teal-600 text-white font-bold py-2 px-4 rounded hover:bg-teal-700 transition-colors">تحقق من الإجابة</button>
+                    <p class="feedback mt-2 font-bold"></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="reading" class="content-section space-y-8">
+            <h2 class="text-3xl font-bold border-r-4 border-orange-600 pr-4 mb-6">قسم القراءة (Reading)</h2>
+            <div class="bg-white p-6 rounded-xl shadow-md">
+                <h3 class="text-2xl font-bold text-orange-800 mb-3">النص الأول: قانون مورفي (ص. 144)</h3>
+                <p class="mb-4 text-lg leading-relaxed bg-gray-50 p-4 rounded-lg">"Murphy's Law states: If anything can go wrong, it might go wrong! ... According to British physicist Robert Matthews, it's neither bad luck nor coincidence. He explains that our selective memories tend to remember the bad episodes more readily than the things that usually work out. Also, the law of probability is more against us than in our favor in many situations. For example, in the supermarket with five cashiers, the chances of getting the fastest lane are 20 percent, and 80 percent for a slower lane."</p>
+                <div class="quiz" data-quiz-id="r1">
+                    <p class="text-lg font-semibold mb-2">1. According to Robert Matthews, Murphy's Law is mainly about bad luck.</p>
+                    <div class="space-y-2">
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="r1q1" value="0" class="hidden"> True</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="r1q1" value="1" class="hidden"> False</label>
+                    </div>
+                    <button onclick="checkAnswer(this, 1)" class="mt-4 bg-orange-600 text-white font-bold py-2 px-4 rounded hover:bg-orange-700 transition-colors">تحقق من الإجابة</button>
+                    <p class="feedback mt-2 font-bold"></p>
+                </div>
+            </div>
+             <div class="bg-white p-6 rounded-xl shadow-md">
+                <h3 class="text-2xl font-bold text-orange-800 mb-3">النص الثاني: رؤية 2030 (ص. 158)</h3>
+                <p class="mb-4 text-lg leading-relaxed bg-gray-50 p-4 rounded-lg">"The Kingdom's 2030 Vision will provide the support and opportunities that this society needs in order to develop its potential. The members of the Kingdom's society will enjoy a secure and happy life in a secure and sustainable environment. They will have social support, health care and high quality education."</p>
+                <div class="quiz" data-quiz-id="r2">
+                    <p class="text-lg font-semibold mb-2">1. The Vision 2030 aims to provide high quality education and health care to its society.</p>
+                    <div class="space-y-2">
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="r2q1" value="0" class="hidden"> True</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="r2q1" value="1" class="hidden"> False</label>
+                    </div>
+                    <button onclick="checkAnswer(this, 0)" class="mt-4 bg-orange-600 text-white font-bold py-2 px-4 rounded hover:bg-orange-700 transition-colors">تحقق من الإجابة</button>
+                    <p class="feedback mt-2 font-bold"></p>
+                </div>
+            </div>
+             <div class="bg-white p-6 rounded-xl shadow-md">
+                <h3 class="text-2xl font-bold text-orange-800 mb-3">النص الثالث: اقتباسات (ص. 186)</h3>
+                <p class="mb-4 text-lg leading-relaxed bg-gray-50 p-4 rounded-lg">"Mark Twain (Writer): 'Never let formal education get in the way of your learning.'"</p>
+                <div class="quiz" data-quiz-id="r3">
+                    <p class="text-lg font-semibold mb-2">1. Mark Twain said that people shouldn't let formal education stop them from learning.</p>
+                    <div class="space-y-2">
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="r3q1" value="0" class="hidden"> True</label>
+                        <label class="block p-3 border-2 rounded-lg cursor-pointer quiz-option"><input type="radio" name="r3q1" value="1" class="hidden"> False</label>
+                    </div>
+                    <button onclick="checkAnswer(this, 0)" class="mt-4 bg-orange-600 text-white font-bold py-2 px-4 rounded hover:bg-orange-700 transition-colors">تحقق من الإجابة</button>
+                    <p class="feedback mt-2 font-bold"></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="writing" class="content-section space-y-8">
+            <h2 class="text-3xl font-bold border-r-4 border-sky-600 pr-4 mb-6">قسم الكتابة (Writing)</h2>
+
+            <div class="bg-white p-6 rounded-xl shadow-md">
+                <h3 class="text-2xl font-bold text-sky-800 mb-3">الجزء الأول: توصيل أجزاء الرسالة</h3>
+                <p class="mb-4 text-lg">قم بسحب كل مصطلح من القائمة اليمنى ووضعه بجانب التعريف المناسب له في القائمة اليسرى.</p>
+                <div class="flex flex-col md:flex-row gap-8">
+                    <div id="definitions" class="flex-1 space-y-3">
+                        <div class="p-4 border-2 rounded-lg flex items-center h-16 bg-gray-100" data-match-id="1">معلومات المرسل (الاسم والعنوان).</div>
+                        <div class="p-4 border-2 rounded-lg flex items-center h-16 bg-gray-100" data-match-id="2">تاريخ كتابة الرسالة.</div>
+                        <div class="p-4 border-2 rounded-lg flex items-center h-16 bg-gray-100" data-match-id="3">التحية الافتتاحية (مثل Dear Sir).</div>
+                        <div class="p-4 border-2 rounded-lg flex items-center h-16 bg-gray-100" data-match-id="4">السبب الرئيسي لكتابة الرسالة.</div>
+                        <div class="p-4 border-2 rounded-lg flex items-center h-16 bg-gray-100" data-match-id="5">التوقيع الختامي (مثل Yours sincerely).</div>
+                        <div class="p-4 border-2 rounded-lg flex items-center h-16 bg-gray-100" data-match-id="6">اسم مرسل الرسالة.</div>
+                    </div>
+                    <div id="terms" class="flex-1 space-y-3">
+                        <div class="p-4 border-2 border-dashed rounded-lg h-16 cursor-move bg-white" draggable="true" data-term-id="4">Reason for writing</div>
+                        <div class="p-4 border-2 border-dashed rounded-lg h-16 cursor-move bg-white" draggable="true" data-term-id="1">Address</div>
+                        <div class="p-4 border-2 border-dashed rounded-lg h-16 cursor-move bg-white" draggable="true" data-term-id="6">Name of the sender</div>
+                        <div class="p-4 border-2 border-dashed rounded-lg h-16 cursor-move bg-white" draggable="true" data-term-id="3">Greeting</div>
+                        <div class="p-4 border-2 border-dashed rounded-lg h-16 cursor-move bg-white" draggable="true" data-term-id="5">Signature</div>
+                        <div class="p-4 border-2 border-dashed rounded-lg h-16 cursor-move bg-white" draggable="true" data-term-id="2">Date</div>
+                    </div>
+                </div>
+                 <button onclick="checkMatching()" class="mt-4 bg-sky-600 text-white font-bold py-2 px-4 rounded hover:bg-sky-700 transition-colors">تحقق من التوصيل</button>
+                 <p id="matching-feedback" class="mt-2 font-bold"></p>
+            </div>
+
+
+            <div class="bg-white p-6 rounded-xl shadow-md">
+                <h3 class="text-2xl font-bold text-sky-800 mb-3">الجزء الثاني: التدرب على الكتابة (25 كلمة)</h3>
+                <p class="mb-4 text-lg">اختر أحد المواضيع التالية وتدرب على كتابة 25 كلمة عنه.</p>
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="text-xl font-semibold">1. رسالة شكوى (ص. 146)</h4>
+                        <textarea class="w-full mt-2 p-3 border-2 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition" rows="4" placeholder="اكتب رسالة الشكوى هنا..."></textarea>
+                        <button onclick="toggleAnswer(this)" class="mt-2 text-sky-600 font-semibold hover:underline">أظهر/أخفِ الإجابة المقترحة</button>
+                        <div class="model-answer hidden mt-2 p-3 bg-gray-100 border-l-4 border-sky-500 rounded">
+                            <p><strong>إجابة مقترحة:</strong></p>
+                            <p>Dear Sir, I am writing to complain about a faulty product I bought yesterday. The earphones do not work on one side. I would like a full refund.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-semibold">2. وصف Kon-Tiki (ص. 161)</h4>
+                        <textarea class="w-full mt-2 p-3 border-2 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition" rows="4" placeholder="اكتب وصف Kon-Tiki هنا..."></textarea>
+                        <button onclick="toggleAnswer(this)" class="mt-2 text-sky-600 font-semibold hover:underline">أظهر/أخفِ الإجابة المقترحة</button>
+                        <div class="model-answer hidden mt-2 p-3 bg-gray-100 border-l-4 border-sky-500 rounded">
+                            <p><strong>إجابة مقترحة:</strong></p>
+                            <p>The Kon-Tiki was a special raft used by explorer Thor Heyerdahl. He used it to prove that ancient people could sail from South America to Pacific islands.</p>
+                        </div>
+                    </div>
+                     <div>
+                        <h4 class="text-xl font-semibold">3. بريد إلكتروني مع تعليمات الوصول (ص. 189)</h4>
+                        <textarea class="w-full mt-2 p-3 border-2 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition" rows="4" placeholder="اكتب البريد الإلكتروني هنا..."></textarea>
+                        <button onclick="toggleAnswer(this)" class="mt-2 text-sky-600 font-semibold hover:underline">أظهر/أخفِ الإجابة المقترحة</button>
+                        <div class="model-answer hidden mt-2 p-3 bg-gray-100 border-l-4 border-sky-500 rounded">
+                            <p><strong>إجابة مقترحة:</strong></p>
+                            <p>Hi Uncle, I hope you are well. Mom is at Well Hospital. To get here, take Main Ave, then turn right onto Hinsdown Street. The hospital is there.</p>
+                        </div>
+                    </div>
+                     <div>
+                        <h4 class="text-xl font-semibold">4. رسالة نصيحة (ص. 175)</h4>
+                        <textarea class="w-full mt-2 p-3 border-2 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition" rows="4" placeholder="اكتب رسالة النصيحة هنا..."></textarea>
+                        <button onclick="toggleAnswer(this)" class="mt-2 text-sky-600 font-semibold hover:underline">أظهر/أخفِ الإجابة المقترحة</button>
+                        <div class="model-answer hidden mt-2 p-3 bg-gray-100 border-l-4 border-sky-500 rounded">
+                            <p><strong>إجابة مقترحة:</strong></p>
+                            <p>Dear friend, I think you did the right thing by returning the watch. Honesty is more valuable than money. You should be proud of your choice and not regret it.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-indigo-900 text-white mt-12">
+        <div class="container mx-auto px-6 py-4 text-center">
+            <p>&copy; 2024 - تم إعداد هذه المراجعة بواسطة الذكاء الاصطناعي لمساعدة الطلاب. بالتوفيق في اختباراتكم!</p>
+        </div>
+    </footer>
+
+    <script>
+        // --- Tab Navigation ---
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('.content-section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+
+            const navButtons = document.querySelectorAll('.nav-button');
+            navButtons.forEach(button => {
+                button.classList.remove('active');
+            });
+            
+            document.getElementById(sectionId).classList.add('active');
+            document.querySelector(`button[onclick="showSection('${sectionId}')"]`).classList.add('active');
+        }
+
+        // --- Quiz Logic ---
+        document.querySelectorAll('.quiz-option input[type="radio"]').forEach(radio => {
+            radio.addEventListener('change', (event) => {
+                const quizDiv = event.target.closest('.quiz');
+                quizDiv.querySelectorAll('.quiz-option').forEach(label => {
+                    label.classList.remove('selected-answer');
+                });
+                event.target.parentElement.classList.add('selected-answer');
+            });
+        });
+
+        function checkAnswer(button, correctIndex) {
+            const quizDiv = button.closest('.quiz');
+            const feedbackP = quizDiv.querySelector('.feedback');
+            const selectedRadio = quizDiv.querySelector('input[type="radio"]:checked');
+            
+            // Disable all options and the button
+            button.disabled = true;
+            quizDiv.querySelectorAll('input[type="radio"]').forEach(radio => radio.disabled = true);
+
+            if (!selectedRadio) {
+                feedbackP.textContent = 'الرجاء اختيار إجابة أولاً.';
+                feedbackP.className = 'feedback mt-2 font-bold text-yellow-600';
+                button.disabled = false; // re-enable button
+                quizDiv.querySelectorAll('input[type="radio"]').forEach(radio => radio.disabled = false);
+                return;
+            }
+
+            const selectedValue = parseInt(selectedRadio.value);
+            const options = quizDiv.querySelectorAll('.quiz-option');
+
+            if (selectedValue === correctIndex) {
+                feedbackP.textContent = 'إجابة صحيحة! أحسنت.';
+                feedbackP.className = 'feedback mt-2 font-bold text-green-600';
+                selectedRadio.parentElement.classList.add('correct-answer');
+            } else {
+                feedbackP.textContent = `إجابة خاطئة. الإجابة الصحيحة هي: ${options[correctIndex].textContent.trim()}`;
+                feedbackP.className = 'feedback mt-2 font-bold text-red-600';
+                selectedRadio.parentElement.classList.add('wrong-answer');
+                options[correctIndex].classList.add('correct-answer');
+            }
+        }
+
+        // --- Writing Prompts Logic ---
+        function toggleAnswer(button) {
+            const modelAnswer = button.nextElementSibling;
+            modelAnswer.classList.toggle('hidden');
+            if (modelAnswer.classList.contains('hidden')) {
+                button.textContent = 'أظهر الإجابة المقترحة';
+            } else {
+                button.textContent = 'أخفِ الإجابة المقترحة';
+            }
+        }
+        
+        // --- Writing Matching Logic ---
+        let draggedItem = null;
+
+        document.querySelectorAll('#terms [draggable="true"]').forEach(item => {
+            item.addEventListener('dragstart', (e) => {
+                draggedItem = e.target;
+                setTimeout(() => {
+                    e.target.style.display = 'none';
+                }, 0);
+            });
+            item.addEventListener('dragend', (e) => {
+                setTimeout(() => {
+                    draggedItem.style.display = 'block';
+                    draggedItem = null;
+                }, 0);
+            });
+        });
+
+        document.querySelectorAll('#definitions > div').forEach(box => {
+            box.addEventListener('dragover', (e) => {
+                e.preventDefault();
+            });
+            box.addEventListener('dragenter', (e) => {
+                e.preventDefault();
+                e.target.classList.add('bg-indigo-100');
+            });
+            box.addEventListener('dragleave', (e) => {
+                e.target.classList.remove('bg-indigo-100');
+            });
+            box.addEventListener('drop', (e) => {
+                e.preventDefault();
+                e.target.classList.remove('bg-indigo-100');
+                if (e.target.classList.contains('p-4') && !e.target.querySelector('div')) { // Check if it's a valid drop zone and not already filled
+                    e.target.appendChild(draggedItem);
+                }
+            });
+        });
+        
+        function checkMatching() {
+            const definitions = document.getElementById('definitions');
+            let correctCount = 0;
+            const total = 6;
+            
+            definitions.querySelectorAll('div[data-match-id]').forEach(defBox => {
+                const termBox = defBox.querySelector('div[data-term-id]');
+                defBox.classList.remove('correct-answer', 'wrong-answer');
+
+                if (termBox) {
+                    const matchId = defBox.getAttribute('data-match-id');
+                    const termId = termBox.getAttribute('data-term-id');
+                    
+                    if (matchId === termId) {
+                        defBox.classList.add('correct-answer');
+                        correctCount++;
+                    } else {
+                        defBox.classList.add('wrong-answer');
+                    }
+                } else {
+                     defBox.classList.add('wrong-answer');
+                }
+            });
+
+            const feedback = document.getElementById('matching-feedback');
+            if(correctCount === total) {
+                feedback.textContent = `ممتاز! كل التوصيلات صحيحة (${correctCount}/${total}).`;
+                feedback.className = 'mt-2 font-bold text-green-600';
+            } else {
+                feedback.textContent = `لديك ${correctCount} من ${total} توصيلات صحيحة. حاول مرة أخرى.`;
+                feedback.className = 'mt-2 font-bold text-red-600';
+            }
+        }
+
+    </script>
+</body>
+</html>
