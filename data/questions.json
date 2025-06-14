@@ -1,0 +1,41 @@
+{
+  "grammar_vocab": {
+    "title": "القواعد والمفردات",
+    "type": "mcq",
+    "questions": [
+      { "question": "He (.......) written the homework.", "choices": ["have", "am", "is", "has"], "answer": "has" },
+      { "question": "I can't stand (.......).", "choices": ["waited", "waiter", "is waiting", "waiting"], "answer": "waiting" },
+      { "question": "We will get our mission (.......).", "choices": ["done", "did", "do", "are"], "answer": "done" },
+      { "question": "He fixed the (......) table.", "choices": ["broken", "broked", "breaking", "broke"], "answer": "broken" },
+      { "question": "He said he (......) football.", "choices": ["plays", "played", "playing", "play"], "answer": "played" },
+      { "question": "I have worked in this supermarket (......) three years.", "choices": ["since", "for", "ago", "that"], "answer": "for" },
+      { "question": "What does the expression '(You mean)' usually do?", "choices": ["confirm what someone said", "show disappointment", "express surprise", "say hello"], "answer": "confirm what someone said" },
+      { "question": "The phrase '(Beats me!)' means...", "choices": ["I have no idea!", "I have an idea!", "You are right!", "You are wrong!"], "answer": "I have no idea!" },
+      { "question": "To 'recover' means...", "choices": ["to get sick", "to get better", "to get angry", "to get tired"], "answer": "to get better" },
+      { "question": "The exclamation '(Gee!)' is used to express...", "choices": ["sadness", "boredom", "surprise", "hunger"], "answer": "surprise" },
+      { "question": "What is another way to say '(It sounds like)'?", "choices": ["It is loud", "It seems to be", "I can't hear", "No way!"], "answer": "It seems to be" },
+      { "question": "The words '(really/totally)' are used to...", "choices": ["make a statement weaker", "ask a question", "make a statement stronger", "show confusion"], "answer": "make a statement stronger" }
+    ]
+  },
+  "writing": {
+    "title": "الكتابة (توصيل)",
+    "type": "matching",
+    "instructions": "قم بتوصيل كل جزء من الرسالة بالاسم الصحيح له.",
+    "terms": [
+      "Address",
+      "Date",
+      "Greeting",
+      "Reason for writing",
+      "Closing",
+      "Sender's Name"
+    ],
+    "definitions": [
+      { "text": "Shefa Street, Riyadh", "match": "Address" },
+      { "text": "Ahmad", "match": "Sender's Name" },
+      { "text": "My best wishes", "match": "Closing" },
+      { "text": "Hello Sir", "match": "Greeting" },
+      { "text": "I am writing to tell you that...", "match": "Reason for writing" },
+      { "text": "1/6/2025", "match": "Date" }
+    ]
+  }
+}
