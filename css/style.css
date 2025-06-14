@@ -137,13 +137,13 @@ body {
     background-color: #eef2ff;
 }
 .choice-button.correct {
-    background-color: #d1fae5;
-    border-color: #10b981;
+    background-color: #d1fae5 !important;
+    border-color: #10b981 !important;
     color: #065f46;
 }
 .choice-button.wrong {
-    background-color: #fee2e2;
-    border-color: #ef4444;
+    background-color: #fee2e2 !important;
+    border-color: #ef4444 !important;
     color: #991b1b;
 }
 .choice-button.disabled {
@@ -223,4 +223,23 @@ body {
 .tip-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.07), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+}
+
+.tree-diagram {
+    padding-right: 20px;
+    border-right: 2px solid #6366f1;
+    font-family: monospace, 'Tajawal';
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+.tree-diagram ul { padding-right: 20px; border-right: 1px dashed #a5b4fc; }
+.tree-diagram li { position: relative; }
+.tree-diagram li::before {
+    content: '';
+    position: absolute;
+    top: 14px;
+    right: -20px;
+    width: 15px;
+    height: 1px;
+    background-color: #a5b4fc;
 }
