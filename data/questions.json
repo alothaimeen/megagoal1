@@ -14,12 +14,26 @@
         "explanation": "بعد الفعل need للتعبير عن الحاجة في صيغة المبني للمجهول، نستخدم to be + التصريف الثالث."
       }
     ],
+    "vocabulary": [
+        {
+            "question": "It sounds like = It seems (.........) be",
+            "choices": ["to", "for", "in", "on"],
+            "answer": "to",
+            "explanation": "تعبير 'It sounds like' يعني 'يبدو أن'."
+        }
+    ],
     "reading": [
       {
         "question": "According to Robert Matthews, Murphy's Law is mainly about bad luck.",
         "choices": ["True", "False"],
         "answer": "False",
         "explanation": "النص يوضح أنها ليست مجرد سوء حظ، بل لها تفسير علمي مرتبط بالذاكرة والاحتمالات."
+      },
+      {
+        "question": "The text suggests that you should blame Murphy's Law for everything that goes wrong.",
+        "choices": ["True", "False"],
+        "answer": "False",
+        "explanation": "النص يقول بوضوح 'you cannot blame Murphy's Law for everything' (لا يمكنك لوم قانون مورفي على كل شيء)."
       }
     ]
   },
@@ -37,6 +51,28 @@
         "answer": "might",
         "explanation": "نستخدم might have للتعبير عن احتمال أو تخمين غير مؤكد في الماضي."
       }
+    ],
+     "vocabulary": [
+        {
+            "question": "Beats me! = I have no (.........)!",
+            "choices": ["time", "idea", "problem", "choice"],
+            "answer": "idea",
+            "explanation": "تعبير 'Beats me!' هو طريقة عامية للقول 'لا أعرف'."
+        }
+    ],
+    "reading": [
+      {
+        "question": "According to the text, the Kingdom's most valuable asset is its natural resources.",
+        "choices": ["True", "False"],
+        "answer": "False",
+        "explanation": "النص يؤكد على أن المجتمع هو الثروة الأكبر للمملكة."
+      },
+      {
+        "question": "Vision 2030 aims to make Saudi Arabia a trade center connecting only Europe and Asia.",
+        "choices": ["True", "False"],
+        "answer": "False",
+        "explanation": "النص يذكر أنها ستربط أوروبا، أفريقيا، وآسيا (Europe, Africa, and Asia)."
+      }
     ]
   },
   "unit11": {
@@ -53,6 +89,28 @@
         "answer": "should",
         "explanation": "نستخدم should have للتعبير عن الندم أو لتقديم نصيحة عن شيء كان من الأفضل فعله في الماضي."
       }
+    ],
+    "vocabulary": [
+       {
+        "question": "`breathing down someone's neck` means constantly (.........) them.",
+        "choices": ["praising", "ignoring", "checking", "helping"],
+        "answer": "checking",
+        "explanation": "المصطلح يعني مراقبة شخص ما باستمرار وبشكل مزعج."
+      }
+    ],
+    "reading": [
+        {
+            "question": "In the story, the friend was happy when the writer asked for his money back.",
+            "choices": ["True", "False"],
+            "answer": "False",
+            "explanation": "النص يقول أن الصديق أعطاه نظرة غريبة وألقى المال عليه ثم رحل (gave me a very funny look, threw a twenty-dollar bill at me, and walked away)."
+        },
+        {
+            "question": "The writer's friend felt that being asked for money in public was embarrassing.",
+            "choices": ["True", "False"],
+            "answer": "True",
+            "explanation": "النص يذكر أن الصديق قال 'He said I had embarrassed him at the shop'."
+        }
     ]
   },
   "unit12": {
@@ -68,6 +126,28 @@
         "choices": ["may", "can", "might", "must"],
         "answer": "might",
         "explanation": "في الكلام المنقول، يتغير الفعل المساعد may إلى might."
+      }
+    ],
+     "vocabulary": [
+        {
+            "question": "hoax = a plan that is designed to (.........) someone else",
+            "choices": ["help", "meet", "guide", "trick"],
+            "answer": "trick",
+            "explanation": "كلمة 'hoax' تعني خدعة أو حيلة."
+        }
+    ],
+    "reading": [
+      {
+        "question": "Mark Twain believed that formal education is the only way to learn.",
+        "choices": ["True", "False"],
+        "answer": "False",
+        "explanation": "اقتباسه 'Never let formal education get in the way of your learning' يعني العكس تمامًا."
+      },
+      {
+        "question": "Helen Keller suggested that having no insight (vision) is a terrible thing.",
+        "choices": ["True", "False"],
+        "answer": "True",
+        "explanation": "اقتباسها 'It is a terrible thing to see and have no vision' يؤكد هذه الفكرة."
       }
     ]
   }
