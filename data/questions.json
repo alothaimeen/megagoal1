@@ -1,0 +1,94 @@
+{
+  "unit9": {
+    "grammar": [
+      { "question": "The walls are filthy. They need ____.", "choices": ["to repaint", "to be repainted", "repainting", "repainted"], "answer": "to be repainted" },
+      { "question": "My computer crashed, so I need to ____.", "choices": ["have it fixed", "fix it", "be fixed", "has it fixed"], "answer": "have it fixed" },
+      { "question": "The sleeve on my jacket is torn. I'll ____.", "choices": ["have it sewn", "sew it have", "be sewn", "sewing it"], "answer": "have it sewn" },
+      { "question": "The engine makes a strange noise. It needs ____.", "choices": ["to be checking", "check", "to be checked", "have checked"], "answer": "to be checked" },
+      { "question": "We didn't want to paint the house ourselves, so we ____.", "choices": ["have it paint", "had it painted", "be painted", "painted it had"], "answer": "had it painted" }
+    ],
+    "reading": [
+      { "question": "According to the text, what is Murphy's Law?", "choices": ["Anything that can happen, will happen.", "If anything can go wrong, it will.", "Good things come to those who wait.", "You will always choose the fastest line."], "answer": "If anything can go wrong, it will." },
+      { "question": "Physicist Robert Matthews explains we remember bad episodes more readily because of ____.", "choices": ["bad luck", "coincidence", "selective memories", "poor education"], "answer": "selective memories" },
+      { "question": "What are the chances of getting the fastest lane in a supermarket with five cashiers?", "choices": ["80%", "50%", "20%", "100%"], "answer": "20%" },
+      { "question": "The text suggests that if you miss the bus, it's probably because ____.", "choices": ["of Murphy's Law", "the bus driver was early", "you didn't wake up early enough", "of bad traffic"], "answer": "you didn't wake up early enough" },
+      { "question": "What does the word 'blame' mean in the context of the article?", "choices": ["To praise someone", "To hold someone responsible for a fault", "To forget something", "To explain something"], "answer": "To hold someone responsible for a fault" }
+    ],
+    "writing": [
+      { "question": "What is the first step in writing a letter of complaint?", "choices": ["Demand a refund", "Express your anger", "Set the scene and provide background info", "Threaten legal action"], "answer": "Set the scene and provide background info" },
+      { "question": "A product that is not working correctly is ____.", "choices": ["filthy", "torn", "faulty", "flimsy"], "answer": "faulty" },
+      { "question": "When you conclude a letter of complaint, you should be ____.", "choices": ["firm but polite", "very aggressive", "apologetic", "vague"], "answer": "firm but polite" },
+      { "question": "What does 'refund' mean?", "choices": ["Getting a new product", "Getting your money back", "Getting a discount", "Repairing the product"], "answer": "Getting your money back" },
+      { "question": "What does 'intact packaging' mean?", "choices": ["The box is open", "The box is brand new", "The box is not damaged or opened", "The box is empty"], "answer": "The box is not damaged or opened" }
+    ]
+  },
+  "unit10": {
+    "grammar": [
+      { "question": "When we arrived at the airport, our flight ____ already left.", "choices": ["has", "have", "had", "was"], "answer": "had" },
+      { "question": "The ground is wet. It ____ rained last night.", "choices": ["might", "must have", "can't have", "should"], "answer": "must have" },
+      { "question": "He's not answering his phone. He ____ have forgotten it at home.", "choices": ["must", "could", "can't", "couldn't have"], "answer": "could" },
+      { "question": "She got a perfect score on the test. She ____ be serious when she said she didn't study.", "choices": ["must", "might", "can't", "should"], "answer": "can't" },
+      { "question": "Before I ____ to Saudi Arabia, I had never seen a desert.", "choices": ["come", "came", "had come", "was coming"], "answer": "came" }
+    ],
+    "reading": [
+      { "question": "What crashed through the Faussets' house?", "choices": ["An airplane", "A satellite", "A meteorite", "A drone"], "answer": "A meteorite" },
+      { "question": "What does the word 'penetrated' mean in the text?", "choices": ["Bounced off", "Went through", "Exploded on", "Landed beside"], "answer": "Went through" },
+      { "question": "What did the neighbors hear?", "choices": ["Nothing", "A soft whisper", "A terrific noise", "Music"], "answer": "A terrific noise" },
+      { "question": "The past perfect 'had heard' is used because the neighbors heard the noise ____ the Faussets arrived.", "choices": ["after", "while", "before", "at the same time"], "answer": "before" },
+      { "question": "What are 'fragments'?", "choices": ["Whole pieces", "Large objects", "Small, broken pieces", "Dust particles"], "answer": "Small, broken pieces" }
+    ],
+    "writing": [
+      { "question": "Thor Heyerdahl led the Kon-Tiki expedition to prove that ____.", "choices": ["rafts were unsafe", "he was a great explorer", "people from South America could have sailed to Polynesia", "the Pacific Ocean was small"], "answer": "people from South America could have sailed to Polynesia" },
+      { "question": "When writing about a historical event, which tense is most commonly used?", "choices": ["Present Simple", "Future Simple", "Past Tenses", "Present Continuous"], "answer": "Past Tenses" },
+      { "question": "What is an 'expedition'?", "choices": ["A short walk", "A vacation", "A journey with a specific purpose", "A dream"], "answer": "A journey with a specific purpose" },
+      { "question": "To write a good description, you should first ____.", "choices": ["write the conclusion", "research and collect information", "choose a title", "draw a picture"], "answer": "research and collect information" },
+      { "question": "The Kon-Tiki raft was made of what material?", "choices": ["Steel and plastic", "It was a modern yacht", "It was handmade, likely from natural materials like wood", "Fiberglass"], "answer": "It was handmade, likely from natural materials like wood" }
+    ]
+  },
+  "unit11": {
+    "grammar": [
+      { "question": "If I ____ harder, I would have passed the test.", "choices": ["had studied", "studied", "would study", "study"], "answer": "had studied" },
+      { "question": "He missed the bus. He ____ have left earlier.", "choices": ["should", "would", "could have", "should have"], "answer": "should have" },
+      { "question": "If they hadn't invented the wheel, they ____ moved heavy loads.", "choices": ["could have", "can't have", "couldn't have", "must have"], "answer": "couldn't have" },
+      { "question": "I regret my decision. I ____ things differently.", "choices": ["should do", "should have done", "would do", "did"], "answer": "should have done" },
+      { "question": "If Dr. Fleming hadn't discovered penicillin, millions of people ____.", "choices": ["will have died", "would have died", "would die", "died"], "answer": "would have died" }
+    ],
+    "reading": [
+      { "question": "Why did the writer's friend get angry?", "choices": ["Because the writer didn't lend him money", "Because the writer asked for the money back in public", "Because the writer bought expensive shoes", "Because the writer didn't like the DVD"], "answer": "Because the writer asked for the money back in public" },
+      { "question": "What does the word 'devastated' mean?", "choices": ["Slightly annoyed", "Confused", "Extremely upset and sad", "Happy"], "answer": "Extremely upset and sad" },
+      { "question": "How much money did the writer lend his friend in total?", "choices": ["$20", "$25", "An unknown amount", "$5"], "answer": "$25" },
+      { "question": "What is the main problem the writer is facing?", "choices": ["He is broke", "He lost his best friend over a small amount of money", "He doesn't like his new shoes", "His friend never buys anything"], "answer": "He lost his best friend over a small amount of money" },
+      { "question": "The phrase 'on purpose' means something was done ____.", "choices": ["accidentally", "quickly", "intentionally", "secretly"], "answer": "intentionally" }
+    ],
+    "writing": [
+      { "question": "What is the first step when giving advice in a letter?", "choices": ["Give a direct order", "Blame the person", "Show sympathy and understanding", "Tell them to forget the problem"], "answer": "Show sympathy and understanding" },
+      { "question": "A person who gives advice in a newspaper is called a ____.", "choices": ["journalist", "columnist", "reporter", "writer"], "answer": "columnist" },
+      { "question": "To 'put things into perspective' means to ____.", "choices": ["ignore the small details", "judge the situation from a wider, more sensible point of view", "focus only on your feelings", "make the problem seem bigger"], "answer": "judge the situation from a wider, more sensible point of view" },
+      { "question": "Being 'judgmental' when giving advice means you are ____.", "choices": ["being helpful and supportive", "being critical and quick to blame", "being a good listener", "being neutral"], "answer": "being critical and quick to blame" },
+      { "question": "What is a good way to suggest an action without being too direct?", "choices": ["You must call him now.", "Why don't you call him?", "You failed to call him.", "You will call him."], "answer": "Why don't you call him?" }
+    ]
+  },
+  "unit12": {
+    "grammar": [
+      { "question": "Direct: \"I will see you later.\" Reported: He said he ____ see me later.", "choices": ["will", "would", "can", "is going to"], "answer": "would" },
+      { "question": "Direct: \"I learned English in Canada.\" Reported: He said he ____ English in Canada.", "choices": ["learned", "learns", "had learned", "has learned"], "answer": "had learned" },
+      { "question": "Direct: \"Are you a student?\" Reported: He asked me ____ I was a student.", "choices": ["that", "if", "was", "am"], "answer": "if" },
+      { "question": "Direct: \"Where were you last night?\" Reported: She wanted to know where we ____ the night before.", "choices": ["were", "had been", "are", "have been"], "answer": "had been" },
+      { "question": "In reported speech, 'tomorrow' changes to ____.", "choices": ["yesterday", "today", "the day before", "the next day"], "answer": "the next day" }
+    ],
+    "reading": [
+      { "question": "Who said 'Never let formal education get in the way of your learning'?", "choices": ["Robert Frost", "King Salman", "Mark Twain", "Helen Keller"], "answer": "Mark Twain" },
+      { "question": "What is an 'endeavor'?", "choices": ["A final result", "A serious attempt to achieve something", "A simple task", "A type of education"], "answer": "A serious attempt to achieve something" },
+      { "question": "Helen Keller said it is a terrible thing to see and have no ____.", "choices": ["money", "friends", "vision", "home"], "answer": "vision" },
+      { "question": "According to Robert Frost, half the world has something to say but ____.", "choices": ["is too shy", "can't say it", "forgets it", "says it loudly"], "answer": "can't say it" },
+      { "question": "The quote from King Salman expresses a goal for the nation to be ____.", "choices": ["wealthy and powerful", "exemplary and leading", "quiet and reserved", "educated in a formal way"], "answer": "exemplary and leading" }
+    ],
+    "writing": [
+      { "question": "When writing an email to a family member to report an event, the tone should generally be ____.", "choices": ["very formal", "informal and personal", "scientific and academic", "angry and demanding"], "answer": "informal and personal" },
+      { "question": "To give directions in an email, you should use ____.", "choices": ["the passive voice", "reported speech", "imperative verbs (e.g., Turn, Go)", "the future tense"], "answer": "imperative verbs (e.g., Turn, Go)" },
+      { "question": "Which is an appropriate closing for an informal email to an uncle?", "choices": ["Yours sincerely,", "With deepest respect,", "See you soon,", "End of message."], "answer": "See you soon," },
+      { "question": "To 'report accurately' means to ____.", "choices": ["exaggerate the story to make it interesting", "give the correct facts and details", "hide some of the information", "write a very short summary"], "answer": "give the correct facts and details" },
+      { "question": "Which phrase is a good way to start an email about a family emergency?", "choices": ["I hope this email finds you well.", "I'm writing to inform you about something important.", "This is a formal notification.", "Guess what happened!"], "answer": "I'm writing to inform you about something important." }
+    ]
+  }
+}
