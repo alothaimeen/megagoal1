@@ -13,6 +13,14 @@
         "answer": "to be",
         "explanation": "بعد الفعل need للتعبير عن الحاجة في صيغة المبني للمجهول، نستخدم to be + التصريف الثالث."
       }
+    ],
+    "reading": [
+      {
+        "question": "According to Robert Matthews, Murphy's Law is mainly about bad luck.",
+        "choices": ["True", "False"],
+        "answer": "False",
+        "explanation": "النص يوضح أنها ليست مجرد سوء حظ، بل لها تفسير علمي مرتبط بالذاكرة والاحتمالات."
+      }
     ]
   },
   "unit10": {
@@ -22,6 +30,12 @@
         "choices": ["had", "has", "was", "is"],
         "answer": "had",
         "explanation": "نستخدم الماضي التام (had + pp) لوصف حدث (مغادرة الطائرة) وقع قبل حدث آخر في الماضي (وصولنا)."
+      },
+      {
+        "question": "He didn't answer his phone. He (.........) have been asleep.",
+        "choices": ["can't", "mustn't", "might", "shouldn't"],
+        "answer": "might",
+        "explanation": "نستخدم might have للتعبير عن احتمال أو تخمين غير مؤكد في الماضي."
       }
     ]
   },
@@ -32,6 +46,12 @@
         "choices": ["will", "can", "would", "may"],
         "answer": "would",
         "explanation": "في الجملة الشرطية من النوع الثالث (Third Conditional)، نستخدم would have + pp في جملة النتيجة."
+      },
+       {
+        "question": "You look tired. You (.........) have gone to bed earlier.",
+        "choices": ["should", "must", "can't", "might"],
+        "answer": "should",
+        "explanation": "نستخدم should have للتعبير عن الندم أو لتقديم نصيحة عن شيء كان من الأفضل فعله في الماضي."
       }
     ]
   },
@@ -42,6 +62,12 @@
         "choices": ["is", "am", "was", "will be"],
         "answer": "was",
         "explanation": "في الكلام المنقول، يتغير زمن المضارع المستمر (am leaving) إلى الماضي المستمر (was leaving)."
+      },
+      {
+        "question": "Direct: 'We may be late.' -> Reported: I said that we (.........) be late.",
+        "choices": ["may", "can", "might", "must"],
+        "answer": "might",
+        "explanation": "في الكلام المنقول، يتغير الفعل المساعد may إلى might."
       }
     ]
   }
